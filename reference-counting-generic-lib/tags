@@ -1,0 +1,117 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/i2sidm/hacking/reference-counting-generic-lib/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+ARFLAGS	include/Makefile	/^ARFLAGS := rcs$/;"	m
+REFCY_H	refcy.h	/^#define REFCY_H$/;"	d
+REFCY_HDR	refcy.h	/^#define REFCY_HDR(/;"	d
+REFCY_HDR_LEN	refcy.h	/^#define REFCY_HDR_LEN /;"	d
+SDS_HDR	include/sds.h	/^#define SDS_HDR(/;"	d
+SDS_HDR_VAR	include/sds.h	/^#define SDS_HDR_VAR(/;"	d
+SDS_LLSTR_SIZE	include/sds.c	/^#define SDS_LLSTR_SIZE /;"	d	file:
+SDS_MAX_PREALLOC	include/sds.h	/^#define SDS_MAX_PREALLOC /;"	d
+SDS_NOINIT	include/sds.c	/^const char *SDS_NOINIT = "SDS_NOINIT";$/;"	v	typeref:typename:const char *
+SDS_TYPE_16	include/sds.h	/^#define SDS_TYPE_16 /;"	d
+SDS_TYPE_32	include/sds.h	/^#define SDS_TYPE_32 /;"	d
+SDS_TYPE_5	include/sds.h	/^#define SDS_TYPE_5 /;"	d
+SDS_TYPE_5_LEN	include/sds.h	/^#define SDS_TYPE_5_LEN(/;"	d
+SDS_TYPE_64	include/sds.h	/^#define SDS_TYPE_64 /;"	d
+SDS_TYPE_8	include/sds.h	/^#define SDS_TYPE_8 /;"	d
+SDS_TYPE_BITS	include/sds.h	/^#define SDS_TYPE_BITS /;"	d
+SDS_TYPE_MASK	include/sds.h	/^#define SDS_TYPE_MASK /;"	d
+UNUSED	include/sds.c	/^#define UNUSED(/;"	d	file:
+UPDATE_CTAGS	Makefile	/^UPDATE_CTAGS := $(shell ctags -R .)$/;"	m
+__SDS_H	include/sds.h	/^#define __SDS_H$/;"	d
+alloc	include/sds.h	/^    uint16_t alloc; \/* excluding the header and null terminator *\/$/;"	m	struct:sdshdr16	typeref:typename:uint16_t
+alloc	include/sds.h	/^    uint32_t alloc; \/* excluding the header and null terminator *\/$/;"	m	struct:sdshdr32	typeref:typename:uint32_t
+alloc	include/sds.h	/^    uint64_t alloc; \/* excluding the header and null terminator *\/$/;"	m	struct:sdshdr64	typeref:typename:uint64_t
+alloc	include/sds.h	/^    uint8_t alloc; \/* excluding the header and null terminator *\/$/;"	m	struct:sdshdr8	typeref:typename:uint8_t
+buf	include/sds.h	/^    char buf[];$/;"	m	struct:sdshdr16	typeref:typename:char[]
+buf	include/sds.h	/^    char buf[];$/;"	m	struct:sdshdr32	typeref:typename:char[]
+buf	include/sds.h	/^    char buf[];$/;"	m	struct:sdshdr5	typeref:typename:char[]
+buf	include/sds.h	/^    char buf[];$/;"	m	struct:sdshdr64	typeref:typename:char[]
+buf	include/sds.h	/^    char buf[];$/;"	m	struct:sdshdr8	typeref:typename:char[]
+buf	refcy.h	/^	unsigned char buf[];$/;"	m	struct:refcy_hdr	typeref:typename:unsigned char[]
+buf_len	refcy.h	/^	uint32_t buf_len;$/;"	m	struct:refcy_hdr	typeref:typename:uint32_t
+clean	Makefile	/^clean:$/;"	t
+count	refcy.h	/^	uint32_t count;$/;"	m	struct:refcy_hdr	typeref:typename:uint32_t
+flags	include/sds.h	/^    unsigned char flags; \/* 3 lsb of type, 5 unused bits *\/$/;"	m	struct:sdshdr16	typeref:typename:unsigned char
+flags	include/sds.h	/^    unsigned char flags; \/* 3 lsb of type, 5 unused bits *\/$/;"	m	struct:sdshdr32	typeref:typename:unsigned char
+flags	include/sds.h	/^    unsigned char flags; \/* 3 lsb of type, 5 unused bits *\/$/;"	m	struct:sdshdr64	typeref:typename:unsigned char
+flags	include/sds.h	/^    unsigned char flags; \/* 3 lsb of type, 5 unused bits *\/$/;"	m	struct:sdshdr8	typeref:typename:unsigned char
+flags	include/sds.h	/^    unsigned char flags; \/* 3 lsb of type, and 5 msb of string length *\/$/;"	m	struct:sdshdr5	typeref:typename:unsigned char
+hex_digit_to_int	include/sds.c	/^int hex_digit_to_int(char c) {$/;"	f	typeref:typename:int
+is_hex_digit	include/sds.c	/^int is_hex_digit(char c) {$/;"	f	typeref:typename:int
+len	include/sds.h	/^    uint16_t len; \/* used *\/$/;"	m	struct:sdshdr16	typeref:typename:uint16_t
+len	include/sds.h	/^    uint32_t len; \/* used *\/$/;"	m	struct:sdshdr32	typeref:typename:uint32_t
+len	include/sds.h	/^    uint64_t len; \/* used *\/$/;"	m	struct:sdshdr64	typeref:typename:uint64_t
+len	include/sds.h	/^    uint8_t len; \/* used *\/$/;"	m	struct:sdshdr8	typeref:typename:uint8_t
+main	include/sds.c	/^int main(void) {$/;"	f	typeref:typename:int
+refcy_hdr	refcy.h	/^struct refcy_hdr {$/;"	s
+refcy_malloc	refcy.c	/^void * refcy_malloc(size_t size) {$/;"	f	typeref:typename:void *
+refcy_realloc	refcy.c	/^void * refcy_realloc(void *p, size_t size) {$/;"	f	typeref:typename:void *
+run	Makefile	/^run:$/;"	t
+sds	include/sds.h	/^typedef char *sds;$/;"	t	typeref:typename:char *
+sds.a	include/Makefile	/^sds.a: sds.a(sds.o)$/;"	t
+sdsAllocPtr	include/sds.c	/^void *sdsAllocPtr(sds s) {$/;"	f	typeref:typename:void *
+sdsAllocSize	include/sds.c	/^size_t sdsAllocSize(sds s) {$/;"	f	typeref:typename:size_t
+sdsHdrSize	include/sds.c	/^static inline int sdsHdrSize(char type) {$/;"	f	typeref:typename:int	file:
+sdsIncrLen	include/sds.c	/^void sdsIncrLen(sds s, ssize_t incr) {$/;"	f	typeref:typename:void
+sdsMakeRoomFor	include/sds.c	/^sds sdsMakeRoomFor(sds s, size_t addlen) {$/;"	f	typeref:typename:sds
+sdsRemoveFreeSpace	include/sds.c	/^sds sdsRemoveFreeSpace(sds s) {$/;"	f	typeref:typename:sds
+sdsReqType	include/sds.c	/^static inline char sdsReqType(size_t string_size) {$/;"	f	typeref:typename:char	file:
+sdsTest	include/sds.c	/^int sdsTest(void) {$/;"	f	typeref:typename:int
+sds_free	include/sds.c	/^void sds_free(void *ptr) { s_free(ptr); }$/;"	f	typeref:typename:void
+sds_malloc	include/sds.c	/^void *sds_malloc(size_t size) { return s_malloc(size); }$/;"	f	typeref:typename:void *
+sds_realloc	include/sds.c	/^void *sds_realloc(void *ptr, size_t size) { return s_realloc(ptr,size); }$/;"	f	typeref:typename:void *
+sdsalloc	include/sds.h	/^static inline size_t sdsalloc(const sds s) {$/;"	f	typeref:typename:size_t
+sdsavail	include/sds.h	/^static inline size_t sdsavail(const sds s) {$/;"	f	typeref:typename:size_t
+sdscat	include/sds.c	/^sds sdscat(sds s, const char *t) {$/;"	f	typeref:typename:sds
+sdscatfmt	include/sds.c	/^sds sdscatfmt(sds s, char const *fmt, ...) {$/;"	f	typeref:typename:sds
+sdscatlen	include/sds.c	/^sds sdscatlen(sds s, const void *t, size_t len) {$/;"	f	typeref:typename:sds
+sdscatprintf	include/sds.c	/^sds sdscatprintf(sds s, const char *fmt, ...) {$/;"	f	typeref:typename:sds
+sdscatrepr	include/sds.c	/^sds sdscatrepr(sds s, const char *p, size_t len) {$/;"	f	typeref:typename:sds
+sdscatsds	include/sds.c	/^sds sdscatsds(sds s, const sds t) {$/;"	f	typeref:typename:sds
+sdscatvprintf	include/sds.c	/^sds sdscatvprintf(sds s, const char *fmt, va_list ap) {$/;"	f	typeref:typename:sds
+sdsclear	include/sds.c	/^void sdsclear(sds s) {$/;"	f	typeref:typename:void
+sdscmp	include/sds.c	/^int sdscmp(const sds s1, const sds s2) {$/;"	f	typeref:typename:int
+sdscpy	include/sds.c	/^sds sdscpy(sds s, const char *t) {$/;"	f	typeref:typename:sds
+sdscpylen	include/sds.c	/^sds sdscpylen(sds s, const char *t, size_t len) {$/;"	f	typeref:typename:sds
+sdsdup	include/sds.c	/^sds sdsdup(const sds s) {$/;"	f	typeref:typename:sds
+sdsempty	include/sds.c	/^sds sdsempty(void) {$/;"	f	typeref:typename:sds
+sdsfree	include/sds.c	/^void sdsfree(sds s) {$/;"	f	typeref:typename:void
+sdsfreesplitres	include/sds.c	/^void sdsfreesplitres(sds *tokens, int count) {$/;"	f	typeref:typename:void
+sdsfromlonglong	include/sds.c	/^sds sdsfromlonglong(long long value) {$/;"	f	typeref:typename:sds
+sdsgrowzero	include/sds.c	/^sds sdsgrowzero(sds s, size_t len) {$/;"	f	typeref:typename:sds
+sdshdr16	include/sds.h	/^struct __attribute__ ((__packed__)) sdshdr16 {$/;"	s
+sdshdr32	include/sds.h	/^struct __attribute__ ((__packed__)) sdshdr32 {$/;"	s
+sdshdr5	include/sds.h	/^struct __attribute__ ((__packed__)) sdshdr5 {$/;"	s
+sdshdr64	include/sds.h	/^struct __attribute__ ((__packed__)) sdshdr64 {$/;"	s
+sdshdr8	include/sds.h	/^struct __attribute__ ((__packed__)) sdshdr8 {$/;"	s
+sdsinclen	include/sds.h	/^static inline void sdsinclen(sds s, size_t inc) {$/;"	f	typeref:typename:void
+sdsjoin	include/sds.c	/^sds sdsjoin(char **argv, int argc, char *sep) {$/;"	f	typeref:typename:sds
+sdsjoinsds	include/sds.c	/^sds sdsjoinsds(sds *argv, int argc, const char *sep, size_t seplen) {$/;"	f	typeref:typename:sds
+sdslen	include/sds.h	/^static inline size_t sdslen(const sds s) {$/;"	f	typeref:typename:size_t
+sdsll2str	include/sds.c	/^int sdsll2str(char *s, long long value) {$/;"	f	typeref:typename:int
+sdsmapchars	include/sds.c	/^sds sdsmapchars(sds s, const char *from, const char *to, size_t setlen) {$/;"	f	typeref:typename:sds
+sdsnew	include/sds.c	/^sds sdsnew(const char *init) {$/;"	f	typeref:typename:sds
+sdsnewlen	include/sds.c	/^sds sdsnewlen(const void *init, size_t initlen) {$/;"	f	typeref:typename:sds
+sdsrange	include/sds.c	/^void sdsrange(sds s, ssize_t start, ssize_t end) {$/;"	f	typeref:typename:void
+sdssetalloc	include/sds.h	/^static inline void sdssetalloc(sds s, size_t newlen) {$/;"	f	typeref:typename:void
+sdssetlen	include/sds.h	/^static inline void sdssetlen(sds s, size_t newlen) {$/;"	f	typeref:typename:void
+sdssplitargs	include/sds.c	/^sds *sdssplitargs(const char *line, int *argc) {$/;"	f	typeref:typename:sds *
+sdssplitlen	include/sds.c	/^sds *sdssplitlen(const char *s, ssize_t len, const char *sep, int seplen, int *count) {$/;"	f	typeref:typename:sds *
+sdstolower	include/sds.c	/^void sdstolower(sds s) {$/;"	f	typeref:typename:void
+sdstoupper	include/sds.c	/^void sdstoupper(sds s) {$/;"	f	typeref:typename:void
+sdstrim	include/sds.c	/^sds sdstrim(sds s, const char *cset) {$/;"	f	typeref:typename:sds
+sdsull2str	include/sds.c	/^int sdsull2str(char *s, unsigned long long v) {$/;"	f	typeref:typename:int
+sdsupdatelen	include/sds.c	/^void sdsupdatelen(sds s) {$/;"	f	typeref:typename:void
+test	Makefile	/^test: refcy.c$/;"	t
+weak_list	refcy.h	/^	uint64_t **weak_list;$/;"	m	struct:refcy_hdr	typeref:typename:uint64_t **
